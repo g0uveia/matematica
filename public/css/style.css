@@ -1,0 +1,137 @@
+/* === GENERAL === */
+* {
+	font-family: 'Open Sans';
+}
+body {
+	background: white;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat';
+}
+.math-page-container {
+	margin-top: 3.75rem;
+	min-height: 37.5rem
+}
+.bg-footer {
+	background: #0E2130;
+	color: #D9D9D9;
+}
+.bg-dark-footer {
+	background: #0E1926;
+	color: #CCC;
+}
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/* === INCLUDE === */
+
+	#math-navbar {
+		height: 3.75rem;
+	}
+	#math-footer {
+		min-height: 15rem;
+	}
+	#math-footer p, #math-footer ul {
+		color: hsla(0,0%,100%,.5);
+	}
+	#math-footer img {
+		opacity: .75;
+	}
+
+	#math-conteudos .card:hover {
+		box-shadow: #CCC 1px 1px 35px;
+	}
+
+/* === QUIZ === */
+
+.math-quiz-box {
+	min-height: 100vh;
+}
+.math-progresso {
+	position: relative;
+}
+.math-progresso-items {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding: 0;
+}
+.math-progresso-items li {
+	color: #AAA;
+	background: #DDD;
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 50%;
+	line-height: 2.5rem;
+	text-align: center;
+	position: relative;
+}
+.math-progresso-items li.active {
+	color: #EEE;
+	background: #355066;
+}
+.math-progresso-barra {
+	height: 2px;
+	background: #e0e0e0;
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: 50%;
+	z-index: 0;
+	margin-left: 2.5rem;
+	margin-right: 2.5rem;
+}
+
+
+/* === BOOOTSTRAP === */
+
+.bg-dark {
+	background: #355066 !important;
+}
+
+.bg-light {
+	background: #F2f2f2 !important;
+}
+
+.btn-success {
+	background-color: #58A60A;
+	border-color: #58A60A;
+	font-weight: 600;
+}
+
+.btn-success:hover {
+	background-color: #4C9617;
+	border-color: #4C9617;
+}
+
+.btn-success:focus {
+	background-color: #468733 !important;
+	border-color: #438F33 !important;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+h5, .h5 {
+	font-size: 1.275rem
+}
+
+.card-body {
+	height: 15rem;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: space-between;
+}
+.card {
+	margin-bottom: 30px;
+}
